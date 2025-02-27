@@ -1,0 +1,31 @@
+p{
+ color: blue;
+}
+.container p{
+    font-weight: bold;
+}
+.active{
+    background-color: yellow;
+    
+}
+#menu li{
+    border-bottom: 1px solid gray;
+}
+a:hover{
+    color: blueviolet;
+}
+ul :first-child{
+    font-style: italic;
+}
+input{
+    border: 2px solid red;
+}
+p:nth-child(even){
+    background-color: gray;
+}
+button::before{
+    content: "<";
+}
+button::after{
+   content: ">";
+}
